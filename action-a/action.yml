@@ -1,0 +1,19 @@
+name: 'Hello Action'
+description: 'Greet Someone'
+author: 'maximilianou@gmail.com'
+
+inputs:
+  MY_NAME:
+    description: 'Who to Greet'
+    require: true
+    default: 'Joaquin & Julian'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  
+
+branding:
+  icon: 'mic'
+  color: 'purple'
+
